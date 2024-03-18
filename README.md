@@ -51,9 +51,12 @@ Follow the prompts to make your moves. The AI player will respond with its moves
 ## Features
 
 **Q-learning**: The AI agent uses the Q-learning algorithm, a type of reinforcement learning, to associate playable moves with rewards such as if it results in a winning position. <br />
-**State Representation**: Design an effective state representation scheme to represent the current state of the game, including the number of piles and their amounts.
-**Action Selection**: Implement a policy for selecting actions (i.e., moves) based on the current state and the learned Q-values.
-**Training and Evaluation**: Train the AI player through repeated gameplay sessions against itself or human players, adjusting Q-values based on observed rewards and penalties. Evaluate the performance of the trained AI player against various opponents.
+<br />
+**State Representation**: Design an effective state representation scheme to represent the current state of the game, including the number of piles and their amounts. <br />
+<br />
+**Action Selection**: Implement a policy for selecting actions (i.e., moves) based on the current state and the learned Q-values. <br />
+<br />
+**Training and Evaluation**: Train the AI player through repeated gameplay sessions against itself, adjusting Q-values based on observed rewards and penalties.
 
 ## Credit
 
