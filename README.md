@@ -3,8 +3,8 @@
 ## Project Description
 
 This project implements an AI player for the game of Nim using the Q-learning algorithm. 
-Nim is a two-player game where players take turns removing amounts from distinct heaps. 
-Whoever removes the amount before all the piles are empty loses.
+Nim is a two-player game where players take turns removing amounts from distinct piles. 
+The person that moves right before all piles are empty loses.
 The goal of the AI player is to learn optimal strategies for playing Nim through reinforcement learning.
 
 ## Table of Contents
@@ -23,7 +23,7 @@ You'll need to have Python and pip3 installed. You can download them from the [o
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/colindao/nim.git
+git clone https://github.com/ColinDao/nim.git
 ```
 
 2. Navigate to the project directory:
