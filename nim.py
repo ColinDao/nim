@@ -138,7 +138,7 @@ class NimAI():
         # Return the max Q-value or 0 if there are no available actions
         return max(actions_eval.values()) if actions_eval else 0
 
-    def choose_action(self, state, epsilon=True):
+    def choose_action(self, state, epsilon = True):
         """
         Given a state `state`, return an action `(i, j)` to take.
 
@@ -159,7 +159,7 @@ class NimAI():
 
         # Choose a random action
         if epsilon and random.random() <= self.epsilon:
-            return random.choice(list(actions_eval.keys()))
+            return random.choice(list(actions_eval))
         
         # Return the best action according to its Q-value
         return max(actions_eval, key = lambda x : actions_eval[x])
@@ -186,9 +186,6 @@ class NimAI():
 
         # Return all available actions in this state
         return available_actions
-
-
-
 
 
 def train(n):
