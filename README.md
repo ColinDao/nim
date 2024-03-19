@@ -18,7 +18,7 @@ The goal of the AI player is to learn optimal strategies for playing Nim through
 
 ## Installation
 
-You'll need to have Python and pip3 installed. You can download them from the [official Python website](https://www.python.org/downloads/).
+You'll need to have Python installed. You can download it from the [official Python website](https://www.python.org/downloads/).
 
 1. Clone the repository:
 
@@ -30,12 +30,6 @@ git clone https://github.com/ColinDao/nim.git
 
 ```bash
 cd nim
-```
-
-3. Install the required dependencies:
-
-```bash
-pip3 install -r requirements.txt
 ```
 
 ## Usage
@@ -64,7 +58,7 @@ This project was completed as a part of [CS50's Introduction to Artificial Intel
 
 ## Technologies
 **Language**: Python <br />
-**Libaries**: Random, Time
+**Libraries**: Random, Time
 
 ## License
 
