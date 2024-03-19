@@ -52,13 +52,13 @@ Follow the prompts to make your moves. The AI player will respond with its moves
 <br />
 **Training and Evaluation**: Train the AI player through repeated gameplay sessions against itself, adjusting Q-values based on observed rewards and penalties.
 
-## Credit
-
-This project was completed as a part of [CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/2024/). Go check them out!
-
 ## Technologies
 **Language**: Python <br />
 **Libraries**: Random, Time
+
+## Credit
+
+This project was completed as a part of [CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/2024/). Go check them out!
 
 ## License
 
